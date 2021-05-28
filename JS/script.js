@@ -1,7 +1,7 @@
 var numberKm = prompt("Quanti km percorrerai?")
 var age = prompt("Quanti anni hai?")
 
-var priceTicket = parseInt(numberkm) * 0.21;
+var priceTicket = parseInt(numberKm) * 0.21;
 var sconto1 = priceTicket / 100 * 20;
 var sconto2 = priceTicket /100 * 40;
 var totPrice= priceTicket - sconto;
